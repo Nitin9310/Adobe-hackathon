@@ -1,0 +1,2190 @@
+{
+  "title": "Performance Of Single-Stage And Dual-Stage EV",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "486",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "487",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "488",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "489",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "490",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "491",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "I.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "The main source that provides energy to EVs is battery.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Battery plays a vital role in the growth of the EV industry. To",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "provide energy to the battery a battery charger is required. The",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "charging system is one of the most important part of the EV",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "system. The battery can be charged either on-board or off-",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "board. In on board charger, the charging system and battery",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "combinedly stay itself in an EV. All the conversion processes",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "are done in the EV itself. In the off-board charger, the charging",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "system is placed outside the EV. All the conversion processes",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "in done in the charging station after that they are directly",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "connected to the EV.  The On board chargers are either single-",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "stage or dual-stage. This can be used to charge low-voltage",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "EVs at home [1]. The On board charger consists of PFC for",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "AC to DC conversion stage and isolated DC to DC stage. In a",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "single-stage on board charger, the PFC and isolated DC to DC",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "are combined into a single power processing stage. Its",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "advantage is that it is simple in structure and less no. of switch",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "counts. The single-stage On board charger without an",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "electrolytic capacitor can get power from single-phase or",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "three-phase utility [2].",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Dual-stage chargers are bulky in size, less efficient, large",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "no. of component counts, and have very complex control",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "circuits. To overcome these features an isolated bridgeless",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "modified SEPIC converter is used to make a single-stage",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "onboard charger for light electric vehicle applications.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Modified SEPIC converter is used to reduce voltage stress",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "across the switch and it is operated in DCM [3]. SEPIC",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "converters are used to transfer the power bidirectionally i.e.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "G2V or V2G. This converter makes ZCS across the switches.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "It reduces the sensor requirement and component count and",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "applies simple control mechanisms. It exhibits the unity power",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "factor operation. This bidirectional battery charger is used for",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "low-voltage applications [4].",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "In single-stage on board chargers, the PFC stage is for high",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "power factor correction and increased efficiency. DCM mode",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "makes the circuit and control algorithm very simple. This",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "charger can be implemented very easily in DCM mode as",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "compared to CCM mode. In CCM mode required no. of",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "components. For DCM mode conducting the PFC stage can",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "be made using a combination of boost and flyback converter.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "When compared to the two-stage charger it has less cost and",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "higher efficiency [5]. The two-stage converter is widely used",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "but it is costly and large. However, the converter used in a",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "single stage has a low cost because component count is",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "reduced, size and volume are reduced. For AC to DC",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "conversion uses a full bridge converter in single-stage",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "topology. In a single stage they achieve high efficiency at light",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "load and get a high power factor at full load conditions [6].",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Single-stage on board chargers are highly efficient for light",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "load conditions but for a wide range of voltage, required two-",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "stage topology. In the two-stage topology, there are two",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "conversion stages first AC to DC conversion stage and the",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "next stage is DC to DC conversion. These are connected in a",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "cascade. Due to the presence of a second DC to DC stage, it",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "can be applied to a wide range of voltage Levels of EV [7].",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "By increasing the research and advancement in power",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "electronics components two stage on board EV chargers are",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "getting more attention. For the PFC stage, used bridgeless",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "converters. As is compared with bridge topology they required",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "less no. of components, less THD. The second stage provides",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "the isolation between two H-bridges. Providing isolation",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "phase shift full bridge transformer is used. The phase shift full",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "bridge transformer can be controlled using PWM switching to",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "achieve ZVS to increase the efficiency [8]. For slow charging",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "phase shift full bridge transformer is used. In that less amount",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "of current flow for a long time as a result less heat will be",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "generated. But for a fast charger, the amount of current",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "transfer is very high and more heat will be generated.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Introducing a bidirectional DAB converter for providing fast",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "charging to EVs. In the DAB converter power can be flow",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "bidirectionally from G2V or V2G [9]. The EV charger which",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "is used presently it has a unidirectional characteristic it can",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "only able to charge the EV. Implementation of V2G",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "technology means EVs can send power to the grid whenever",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "required[10]. This paper shows the single-stage and dual-stage",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "bidirectional EV charger topology. Power can flow either",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "G2V or V2G.",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Section II shows the single-stage & dual-stage battery",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "charger topology. Section III describes the different stages of",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "charging topology. Section 4 shows modelling and control",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "strategies to charge or discharge the battery. Section 5",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "represents the simulation results when it\u2019s charging i.e. the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "power flow from grid to vehicle (G2V) and when discharging",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "i.e. the power flow from vehicle to grid (V2G).",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "II.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The charger topology presented in this paper is single-",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "stage and dual-stage. Single-stage topology uses the PFC",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "stage for AC to DC conversion and is directly connected to the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "battery. Now in the dual-stage, they required two stages of",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "conversions first AC to DC conversion i.e. PFC stage, and",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "next DC to DC conversion which uses a DAB circuit.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "A. Single Stage Battery Charging Topology",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The given Fig. 1.  shows the circuit diagram of the single-",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "stage battery charger. Which shows only a single stage i.e. AC",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "to DC conversion stage. In this circuit, AC power get directly",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "from a single-phase supply and convert it  into DC to charge",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the battery. During AC to DC conversion make sure that the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "power factor is unity. This stage is used for low-voltage",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "applications.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "B. Dual-Stage Battery Charging Topology",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The given Fig. 2. shows the circuit diagram of the dual-",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "stage battery charger. It has two stages of conversion first AC",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "to DC conversion after that DC to DC conversion. In a given",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "circuit the first stage works exactly the same as that of a single",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "stage. In the next stage of DC to DC conversion, provides a",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "galvanic isolation because power is transferred at a very high",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "frequency to charge the given battery. This stage is used for",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "high-voltage applications and a wide range of voltage variety.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "III.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "A. Active Bridge Rectifier for AC To DC Conversion",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "This rectifier is also known as an active front-end",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "converter. This is the first stage of every charger that is used",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "for the conversion of AC to DC at a high power factor. It",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "provides a unity power factor i.e. voltage and current are in",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "phase when power flows from grid to vehicle (G2V). This is",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "one of the reason that it is called as power factor correction",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "stage. Voltage and current are in opposite phases when the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "same power is coming from the vehicle to the grid ( V2G).",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The presented PFC circuit i.e. active bridge rectifier used",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "in this circuit is very similar to the diode bridge rectifier as",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "shown in Fig. 3. A Diode bridge rectifier draws non-sinusoidal",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "current from the grid which creates a lot of harmonics in it",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "which affects the load which is connected to it. Due to its non-",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "sinusoidal nature of current and harmonics which are present",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "in it both affect the power factor of the circuit. Due to this",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "power factor of the circuit is getting low which directly affects",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the efficiency of the circuit.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "The efficiency of this circuit is low here is the one of",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "reason due the voltage drop across the diode is more. Due to",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "more voltage drops more heat will be generated across it",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "which damages the equipment.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Because of the above drawback of the diode bridge",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "rectifier circuit, given paper use an active bridge rectifier",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "circuit for AC to DC conversion in the battery charger. In an",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "active bridge rectifier circuit uses an active switches instead",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "of diodes and an inductor which is connected in series with the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "grid as shown in Fig. 4. They perform AC to DC conversion",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "in a controlled manner after conversion they create a common",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "DC link voltage for further stages. Because of the inductor,",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "they draw sinusoidal current in phase with grid voltage, reduce",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the no. of harmonics, and achieve unity power factor. This is",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the reason that this circuit is called a PFC circuit. The",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "efficiency of this circuit is greater because the voltage drop",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "across the switches less.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "B. DAB Circuit for DC to DC Conversion",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "DAB i.e. dual active bridge converters are mostly used for",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "battery charging. DAB consists of two H bridge converters",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "with high-frequency transformer to provide galvanic isolation",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "between them as shown in Fig. 5. This stage provides the",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "required DC voltage to the battery at the time of charging. This",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "circuit uses an LC filter at the primary of the circuit to reduce",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "the ripples in the current.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "This is the second stage or the back end of the charger",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "which is connected directly to the battery. This stage can be",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "used to charge the battery of a wide range of voltage. This",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "isolated converter is used in continuous conduction mode.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "This stage is used for bidirectional power flow from G2V or",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "V2G.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "C. DC to DC Converter",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "This is the DC to DC converter which is used to charge or",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "discharge the battery at constant current and constant voltage",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "as shown in Fig. 6. In the single stage, they get direct DC link",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "voltage from the PFC stage and in the dual stage, they get DC",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "link voltage from the DAB circuit at the time of charging.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "It consists of two switches one is used for charging and the",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "other is used for discharging the battery. The inductor and",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "capacitor are used to reduce the ripples in current and output",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "voltage.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "IV.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "The control mechanisms are different for both converters.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "In the front-end converter, uses PI and PR control algorithms",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "to control the switching of the converter, and for the DC to DC",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "stage, use a single-phase shift method of switching. For",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "constant current & constant voltage charging, uses an PI",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "controllers.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "A.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "PFC Stage",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "In this stage AC to DC conversion is done by keeping the",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "400v at output as a DC link voltage by controlling the grid",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "current and the PWM switching of the converter. The grid is",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "connected to 1 phase 230v rms. It consists of 4 active switches",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "( A1 to A4), source inductance(L",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "), and one output filter(C",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": ").",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "When the AC supply is connected across the switches it",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "creates a sinusoidal waveform of grid voltage and current",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "which are in phase. By using two complementary switches",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "(A1 A2 )&( A3 A4) and making a 50% duty cycle it creates a",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "constant DC voltage at the end.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "1)",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "During Positive Half Cycle",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "During the positive half cycle of the AC supply switch A1",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "and A4 are conducted and A3 and A4 are off. This is",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "forwarding mode by conducting the A1 and A4 switch. The",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "current completes its path as shown in the Fig. 7.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "When switches A1 and A4 are conducting the voltage",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "across the inductor,",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0738",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0d4c\u0003\u000f",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0d4c\u0003\u0738",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0d46\u0003\u0738",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0d4f\u0003\u0372\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u123a\u0373\u123b",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "2)",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "During a Negative Half Cycle",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "During the negative half supply switches A1 and A4 are",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "turned off and switches A2 and A3 are turned on in this stage.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "This is the reverse conducting mode. The current completes",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "its path in the reverse direction as shown in Fig. 8.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "When switches A2 and A3 are conducting the voltage",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "across the inductor,",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0738",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0d4c\u0003\u000f",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0740\u0745",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0740\u0750",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0d4c\u0003\u0738",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0d45\u0003\u0738",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0d50\u0003\u0372\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u123a\u0374\u123b\u0003",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "In each case, the output voltage",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "is always greater than",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "the grid voltage",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Power factor is determined by using 1) offset and 2) phase",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "angle between voltage and current.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Power factor =",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0091\u0095 \u07e0",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "The conventional method to find the power factor",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0092\u0091\u0099\u0087\u0094\u0003\u0088\u0083\u0085\u0096\u0091\u0094 \u0d4c",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0091\u0095 \u07e0",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0da5\u0373 \u0d45\u123a\u0736\u072a\u0726\u123b",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u123a\u0375\u123b",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "where THD i.e. Total harmonic distortion is defined as,",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0017\u000b\u0007\u0003 \u0d4c\u0003",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0da5\u03c3",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u123a\u0376\u123b",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "From equation (3) it is clear that the power factor is",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "inversely proportional to the THD. THD depends on",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "harmonics which are present in the current. By controlling the",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "switching of the circuit reduces the harmonics in the current.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "By reducing the harmonics in current improve the power",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "factor of the circuit.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "3)",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Control mechanisms",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Used PI & PR controller for controlling the switching of",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "the circuit as shown in Fig. 9.  This controller uses three major",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "quantities 1) grid voltage 2) grid current 3) output DC voltage",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "The PLL is employed to find the voltage phase which",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "maintains a high power factor. There are two control loops:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "one is the outer loop which is used to control the output DC",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "link voltage and the inner loop is used to control the current.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "For supplying real power from the grid to the vehicle PLL",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "creates an active ref. current signal which is in phase with",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "voltage for G2V operation. For getting power back to the grid",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "PLL also creates a reactive ref. current signal which is out of",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "phase with voltage for V2G operation.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "There are two switching methods are used for PWM",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "signals. They are unipolar switching and bipolar switching. In",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "this control algorithm, uses an the unipolar switching method",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "to switch the active switches.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "By using this control algorithm maintain the power factor",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "at unity and regulate the output DC link voltage in a range of",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "350V to 800V.",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "B.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "DAB Converter with LC Filter",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "This converter is used to charge the battery. It is a simple",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "DC to DC converter using two H bridge and one transformer",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "in which the LC filter is connected at the prim. It consist of 8",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "(B1-B4 & C1-C4) switches and the input comes from the PFC",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "circuit as shown in Fig. 10.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "During the positive half cycle B1 and B4 switches of the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "primary are conducted and after some delay, the switches C1",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "and C4 are conducted. Similarly, in the negative half cycle",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "switches B2 and B3 of the prim are conducted and after some",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "delay switches C2 and C4 are conducted.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "\u0726\u0741\u0748\u073d\u0755\u0003 \u0d4c\u0003\u074c\u0744\u073d\u074f\u0741\u0003\u074f\u0744\u0745\u0742\u0750\u0003 \u0d4c\u07d9",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "The switching of the dab converter is better understood by",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "using waveform in 8 modes of operations.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode ( T0 -T1)  = prim. switches B1/B4 & C2/C3 are",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "conduct. In this mode the inductor current change its state",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "from -ve to +ve.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode ( T1 \u2013 T2 ) = In this mode B1/B4 and C1/C4 are",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "conduct simultaneously. In this mode, the inductor current is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "still positive but in an increasing manner.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode (T2 \u2013 T3 ) = In this mode the switch B2/B3 is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "conducted in the negative half of prim. H bridge and switch",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "C1/C4 are conduct in the positive half of the sec. of H bridge.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "In this mode the inductor current increases in the +ve",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "direction.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode ( T3 \u2013 T4 ) = In this mode the switches B2/B3 of",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "prim. H bridge and switches C2/C3 of sec. H bridges are",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "conducted simultaneously in the negative half cycle. In this",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "mode the inductor current increases.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode ( T4- T5) = In this mode the switches B1/B4 of prim.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "H bridge in the positive half cycle and C2/C3 of sec. H bridge",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "in the negative half cycle. In this mode, the inductor current",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "decreases and changes its state from +ve to -ve direction.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode (T5 \u2013 T6 ) = In this mode the switch B1/B4 is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "conducted in the positive half of prim. H bridge and switch",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "C1/C4 are conducted in the positive of the sec. of H bridge. In",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "this mode, the inductor current decreases in -ve direction.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode ( T6 \u2013 T7 ) = In this mode the switches B2/B3 of",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "prim. H bridge are conducted in the negative half cycle and",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "switches C1/C4 of sec. H bridges are conducted in the positive",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "half cycle. In this mode, the inductor current still decreases in",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "a negative manner.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Mode ( T7 \u2013 T8 ) = In this mode the switches B2/B3 of",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "prim. H bridge and C2/C3 of sec. H bridges are conducted in",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "simultaneously the negative half cycle. In this mode, the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "inductor still decreases negative manner.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "These 8 mode of operation for valid for G2V operation.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "For V2G operation the inductor current gets reversed. When",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "the secondary voltage is more than the primary voltage is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "shown in the above Fig. 11 (a) & (b). This dab converter",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "achieve high efficiency because switching losses are less.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Switching losses can be reduced by increasing the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "switching frequency of the system. By increasing the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "switching frequency means getting ZVS i.e. zero voltage",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "switching is here. zero voltage switching is a type of soft",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "switching. It switches the circuit when the voltage is zero.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Phase shift is dependent upon the output voltage. Output",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "capacitor as a DC link capacitor is made as large as possible",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "to maintain constant output voltage.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "To find the filter value requires the resonant frequency less",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "than the switching frequency and select the range of DAB",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "current.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "The output power transfer by DAB",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "\u0003\u0d4c\u0003",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "\u05db\u0003\u0738",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "\u074a\u07e8\u0742\u072e",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "\u05ce\u123a\u07e8\u0d46\u05ce\u123b\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u123a\u0378\u123b",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "The direction of the power flows can be seen by using the",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "above current waveform shown in Fig. 12 (a), (b) & (c).",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "1)Control mechanisms",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "For switching the 1",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "H bridge makes the PWM signals",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "from the pulse generator by making a 50% duty ratio.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "For switching the 2",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "H bridge makes the same PWM",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "signal from the pulse generator but it passes through time",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "variable delay to ensure that there is a phase shift between",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "prim. and sec.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "For controlling output voltage using PI controller as shown",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "in Fig. 13.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "C.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "DC to DC Controller for Battery Charging.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "This is the DC to DC converter which is required to charge",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "or discharge the battery at constant current and constant",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "voltage. It consists of two switches one is used for charging",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "and the other is used for discharging the battery. The inductor",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "and capacitor are used to reduce the ripples in current and",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "output voltage shown in Fig. 14.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "1)",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "During Charging & Discharging",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "During charging the power flows from grid to vehicle",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "(G2V). In this mode, the switch D1 is conducting and the flow",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "of current is as shown in Fig. 15 (a). In this condition they get",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "input from DAB and converted into output to charge the",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "battery.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "During discharging the power will be from the vehicle to",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "the grid (V2G). In this mode switch D2 is conducting and the",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "flow of current is as shown in Fig. 15 (b). In this condition",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "they supply energy from the battery and give it to the DAB",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "converter in the dual-stage and in the single stage they give it",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "to the direct grid.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "For controlling the switching of this converter using PI",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "controller as shown in Fig. 16.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "V.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Presented paper shows the implement the single-stage and",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "dual-stage",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "bidirectional",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "battery",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "charger",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "using",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "MATLAB/SIMULINK and the results are shown above.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "A.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Single-stage battery charger",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "The charging circuit uses a single-stage charger its",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "performance waveform is shown in above. It charges or",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "discharges the std. battery 300V, 150Ah at a constant current",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "and constant voltage. At the time of charging grid voltage &",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "grid current are in phase. When the battery is discharging the",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "grid voltage & current are out of phase as shown in Fig. 17(a)",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "& (b).",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "B.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Dual-Stage Battery Charger",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "The simulation results of the described bidirectional dual-",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "stage EV charger are as follows. When G2V operation is",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "performed grid voltage & current are in phase. DAB",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "waveform at the time of charging prim. voltage is greater than",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "sec. voltage. When V2G operations are performed, that time",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "grid voltage & grid current are out of phase also the DAB",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "waveform at the time discharging sec. voltage is greater than",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "prim. voltage as shown in Fig. 18 (a), (b), (c) & (d).",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "C.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Battery charging/discharging at constant voltage and",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "constant current",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "By using the described battery charger controller , charge",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "or discharge the battery at constant voltage & constant current.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "The above simulation results shows the battery current, battery",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "voltage,",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "soc",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "of",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "the",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "circuit",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "at",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "the",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "time",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "of",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "charging/discharging as shown in Fig. 19.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "(a)",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "(b)",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "(c)",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "(d)",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "VI.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "This paper described the single-stage & dual-stage",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "bidirectional battery charger which is used to provide power",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "from a grid to a vehicle (G2V) operation and vice-versa.",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Presented paper shows G2V operation is for charging of the",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "battery & shows the battery can be charged or discharged at",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "constant current & constant voltage and vice-versa. This paper",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "uses zero current switching to reduce the switching losses of",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "the converter. This paper shows the power can flow in either",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "direction G2V or V2G. The results of the various stages are",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "tested and validated using MATLAB/SIMULINK software &",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "get the results in real-time using the OPAL-RT system.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "979-8-3503-4920-7/24/$31.00 \u00a92024 IEEE",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "2024 Third International Conference on Power, Control and Computing Technologies (ICPC2T)",
+      "page": 6
+    }
+  ]
+}
